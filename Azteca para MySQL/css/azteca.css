@@ -1,0 +1,133 @@
+body {
+	background-color: white;
+	font-family: Arial;
+	color: black;
+}
+
+.logo {
+	float: top;
+	text-align: center;
+}
+		
+.menu {
+	float: top;
+	background-color: black;
+	color: black;
+}
+
+ul, ol {
+	list-style: none;
+}
+	
+.nav {
+	border: 2px solid black;
+	width: 80%;
+}
+ 
+.nav > li {
+	float: left;
+}
+			
+.nav li a {
+	text-decoration: none;
+	padding: 8px 12px;
+	display: block;
+}
+			
+.nav li a:link {
+	color: black;
+}
+			
+.nav li a:visited {
+	color: black;
+}
+			
+.nav li a:hover {
+	color: #cc2900;
+}
+			
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+			
+.nav li:hover > ul {
+	display: block;
+	background-color: white;
+}
+			
+.nav li ul li {
+	position: relative;
+}
+			
+.nav li ul li ul {
+	right: -100px;
+	top: 0px;
+}
+
+.login {
+	text-align: center;
+}
+
+.registro {
+	text-align: center;
+}
+
+span {
+	color: black;
+}
+
+.error {
+	color: #cc2900; 
+	display: none;
+}
+
+.boton {
+	background-color: #bc0000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.botontabla {
+	background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.cabecera {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+table {
+	margin: 0 auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.blanco {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.gris {
+	background-color: #bcbcbc;
+	color: #000000;
+}
+
+.cuerpo {
+	text-align: center;
+}
+
+.validacion a {
+	float: right;
+}
